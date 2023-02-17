@@ -1,0 +1,43 @@
+html,
+body {
+  padding: 0;
+  margin: 0;
+}
+.app {
+  text-align: center;
+}
+
+.app-logo {
+  height: 10vmin;
+  pointer-events: none;
+}
+
+.app-header {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+}
+
+pre {
+  font-size: 0.75em;
+}
+
+.app-link {
+  color: #4f6af5;
+}
+
+.leftPart {
+  width: calc(50vw - 66px)
+}
+
+.rightPart {
+  width: calc(50vw - 66px)
+}
+
+.hashStyle {
+  width: calc(50vw - 76px);
+  display: inline-block;
+}
